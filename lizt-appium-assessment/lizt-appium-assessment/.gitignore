@@ -1,6 +1,0 @@
-target/
-reports/*.html
-screenshots/*.png
-.idea/
-*.iml
-.DS_Store
