@@ -1,0 +1,17 @@
+{
+  "name": "saucedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}

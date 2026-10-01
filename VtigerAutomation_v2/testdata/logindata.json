@@ -1,0 +1,32 @@
+[
+    {
+        "label" : " Valid login",
+        "username" : "admin",
+        "password" : "shivbabu",
+        "status" : "valid"
+    },
+    {
+        "label" : " wrong username",
+        "username" : "admin1",
+        "password" : "shivbabu",
+        "status" : "invalid"
+    },
+    {
+        "label" : " wrong password",
+        "username" : "admin",
+        "password" : "shivbabu1",
+        "status" : "invalid"
+    },
+    {
+        "label" : " blank username",
+        "username" : "",
+        "password"  : "shivbabu",
+        "status" : "invalid"
+    },
+    {
+        "label" : " blank password",
+        "username" : "admin",
+        "password" : "",
+        "status" : "invalid"
+    }
+]

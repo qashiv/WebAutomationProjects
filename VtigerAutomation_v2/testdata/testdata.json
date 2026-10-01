@@ -1,0 +1,36 @@
+{
+    "marketingLeads": {
+        "salutation" : "Mr.",
+        "firstName": "Smith",
+        "lastName": "James",
+        "company": "JS Private Limited",
+        "leadSource": "Employee",
+        "leadStatus": "Qualified",
+        "assignedUserId": "785",
+        "lane": "California AUS",
+        "description": "OK",
+        "title": "admin - Marketing - Leads - vtiger CRM 5 - Commercial Open Source CRM"
+    },
+
+    
+    "salesAccounts": {
+        "accountName": "Mahakal",
+        "website": "www.mahakalweb.com",
+        "address": "MG ROAD, PRAYAGRAJ, UTTAR PRADESH, 400610"
+    },
+    
+    "marketingCampaigns" : {
+        "CampaignName": "Test Campaigns",
+        "CampaignType" : "Conference",
+        "TargetAudience" : "Adults",
+        "BudgetCost" : "1000000",
+        "ExpectedResponce" : "Excellent",
+        "ExpectedSalesCount" : "1000",
+        "ActualSalesCount" : "1500",
+        "ActualCost" : "1200000",
+        "ExpectedRevenue" : "1500000",
+        "Description" : "Campaign Details are filled - Excellent"
+
+    }
+}
+
