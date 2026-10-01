@@ -1,0 +1,3 @@
+Cust ID,Client Name,Pricing type,Currency pair,Common Margin,Margin (BID) in BPS,Margin (ASK) in BPS,Remarks
+583927684,Test,RFQ,USD/INR,YES,1600,1800,A
+583927684,Test,RFQ,EUR/USD,YES,1600,1700,A

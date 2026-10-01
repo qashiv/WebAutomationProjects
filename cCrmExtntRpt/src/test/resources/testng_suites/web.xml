@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="ICICI Forex DS Trading Automation" parallel="false">
+	<listeners>
+		<listener class-name="com.icici.forex.utils.TestListener"></listener>
+	</listeners>
+	<test thread-count="2" name="DS UAT Card Rate Test Execution">
+		<classes>
+			<class name="com.icici.forex.tests.cardrate.CardRate_E2E" />
+			<class
+				name="com.icici.forex.tests.cardrate.SCID_RS003_RS006_RS009_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_RF_001_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_TM_001_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_CC_002_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_CC_003_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_CC_004_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_CC_006_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_CC_007_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_CC_008_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_CC_009_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_CC013_CC014_Test" />
+			<class
+				name="com.icici.forex.tests.cardrate.SCID_IBRRP002_IBRRP003_IBRRP004_Test" />
+			<class
+				name="com.icici.forex.tests.cardrate.SCID_IDS003_IDS007_IDS011_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_CRPR_001_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_PM001_PM012_Test" />
+			<class name="com.icici.forex.tests.cardrate.SCID_PM_004_Test" />
+			<class
+				name="com.icici.forex.tests.cardrate.SCID_GP002_GP005_GP007_GP008_GP009_GP010_Test" />
+		</classes>
+	</test>
+
+</suite>

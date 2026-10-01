@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Forex DS Automation Execution" verbose="1" parallel="false">
+	<test thread-count="2" name="COB Automation Execution" parallel="classes">
+		<classes>
+			<class name="com.icici.forex.tests.cob.SCID_TSSG_002_Test" />
+			<class name="com.icici.forex.tests.cob.SCID_TSSG_001_Test" />
+			<class name="com.icici.forex.tests.cob.SCID_TSSG003_TSSGJ001_Test" />
+			<class name="com.icici.forex.tests.cob.SCID_TSSG006_RSM001_Test" />
+			<class name="com.icici.forex.tests.cob.SCID_SMM003_COOSM_005_Test" />
+			<class name="com.icici.forex.tests.cob.SCID_EUM_001_Test" />
+			<class name="com.icici.forex.tests.cob.SCID_CONL_011_Test" />
+			<class name="com.icici.forex.tests.cob.SCID_MF_005_Test" />
+			<class name="com.icici.forex.tests.cob.SCID_MF_015_Test" />
+		</classes>
+	</test>
+</suite>
